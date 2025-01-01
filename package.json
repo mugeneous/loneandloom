@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint --fix .",
     "preview": "vite preview",
-    "format": "prettier -w --config ./.prettierrc ."
+    "format": "prettier -w --config ./.prettierrc .",
+    "prepare": "husky"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -28,6 +29,7 @@
     "eslint-plugin-react-refresh": "^0.4.16",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "globals": "^15.14.0",
+    "husky": "^9.1.7",
     "vite": "^6.0.5"
   }
 }
